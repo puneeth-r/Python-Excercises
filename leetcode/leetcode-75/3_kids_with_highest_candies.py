@@ -11,7 +11,7 @@ Explanation: If you give all extraCandies to:
 - Kid 3, they will have 5 + 3 = 8 candies, which is the greatest among the kids.
 - Kid 4, they will have 1 + 3 = 4 candies, which is not the greatest among the kids.
 - Kid 5, they will have 3 + 3 = 6 candies, which is the greatest among the kids."""
-
+from typing import List
 class Solution:
     # Time Complexity: O(n), where n is the number of kids (length of the candies list).
     # Space Complexity: O(n), for storing the result list.
